@@ -23,7 +23,7 @@ import java.util.Random;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.apache.http.message.BasicNameValuePair;
-import org.codehaus.jackson.type.TypeReference;
+import com.fasterxml.jackson.core.type.TypeReference;
 
 import android.os.HandlerThread;
 import android.util.Log;

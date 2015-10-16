@@ -21,11 +21,11 @@ package de.tavendo.autobahn;
 import java.io.IOException;
 import java.nio.channels.SocketChannel;
 
-import org.codehaus.jackson.JsonFactory;
-import org.codehaus.jackson.JsonGenerationException;
-import org.codehaus.jackson.JsonGenerator;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.MappingJsonFactory;
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.core.JsonGenerator;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.MappingJsonFactory;
 
 import android.os.Handler;
 import android.os.Looper;
